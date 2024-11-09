@@ -1,0 +1,50 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(244, 244, 152,0.5), rgb(239, 239, 190,0.5)), url("https://th.bing.com/th/id/R.05a0127d4116e9fa459de34e9d6e281e?rik=cKWjfORNFJ6CPg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f8%2fc%2fb%2f787561-free-download-daisy-flower-wallpaper-3360x2100.jpg&ehk=4TB%2boS0nZzg4WFnfYlu2XMTCEguGF17vq3Lhz5PMjYI%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+
+.logintitle{
+    font-size: 50px;
+}
+
+.loginform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginform>label{
+    margin: 10px 0;
+}
+
+.logininput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.loginbutton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginregisterbutton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    height: 30px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}

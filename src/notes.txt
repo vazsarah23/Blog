@@ -1,0 +1,4 @@
+open fonts cdn on google and copy the link in the index.html file to get the icons
+ul.toplist --> ul tag with toplist name of the class
+
+rfc --- >  react shortcut
